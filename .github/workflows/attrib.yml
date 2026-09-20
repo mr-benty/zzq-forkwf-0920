@@ -1,0 +1,7 @@
+name: G-attrib-forkonly
+on: push
+jobs:
+  j:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo CANARY-G-ATTRIB-zzq0920
