@@ -1,0 +1,7 @@
+name: H-clean-forkonly
+on: push
+jobs:
+  j:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo CANARY-H-CLEAN-zzq0920
