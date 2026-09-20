@@ -1,0 +1,7 @@
+name: A-fork-planted
+on: push
+jobs:
+  j:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo CANARY-A-FORK-ONLY-zzq0920
